@@ -1,0 +1,6 @@
+peminjaman
+gender
+anggota
+umur_anggota
+data_buku
+data_anggota

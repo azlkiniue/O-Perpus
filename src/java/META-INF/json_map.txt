@@ -1,0 +1,12 @@
+Peminjaman
+{"jumlah":"3","tgl_pinjam":"2016-11-27"}
+Anggota
+{"tgl_daftar":"2016-11-22","jumlah":"1","pria":"1","wanita":"0"}
+Gender
+{"value":"7","label":"L"}
+Umur
+{"age_range":"< 20","count":"1","ordinal":"1"}
+DataBuku
+{"id":"2","value":"Atlas Al-Qur'an"}
+DataAnggota
+{"id":"1","value":"Ahmad Muzakki Alamsyah"}

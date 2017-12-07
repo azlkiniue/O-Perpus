@@ -1,0 +1,21 @@
+get                 : anggota, buku, denda, p.detail, p.master
+getPeminjaman       : p.master, p.detail, anggota=p.master, buku=p.detail
+getDenda            : anggota=denda, buku=denda
+getAutoIncrement    : -
+select              : anggota, buku, denda, p.detail, p.master
+selectPinjam        : p.master, p.detail, anggota=p.master, buku=p.detail
+insert              : anggota, buku, denda, p.detail, p.master
+insertPeminjaman    : p.master, p.detail
+insertDenda         : denda
+edit                : buku, anggota
+editPengembalian    : p.detail
+editDenda           : denda
+setPeminjaman       : >setPinjam
+setPinjam           : buku
+delete              : anggota, buku, denda, p.detail, p.master
+editKembali         //: peminjaman
+selectPeminjaman    //: peminjaman
+//getDonasi
+//getTopContributor
+//getJumlahDonasi
+//setDonasi
